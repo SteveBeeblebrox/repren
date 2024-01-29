@@ -2,7 +2,7 @@
 
 ![But call me repren for short](images/awkward-150.jpg)
 
-## Rename anything
+## Rename anything (Now for Python 3)
 
 Repren is a simple but flexible command-line tool for rewriting file contents
 according to a set of regular expression patterns, and to rename or move files
