@@ -98,10 +98,7 @@ Notes:
 - Backups are created of all modified files, with the suffix ".orig".
 - By default, recursive searching omits paths starting with ".". This may be
   adjusted with `--exclude`. Files ending in `.orig` are always ignored.
-- Data can be in any encoding, as it is treated as binary, and not interpreted
-  in a specific encoding like UTF-8. This is less error prone in real-life
-  situations where files have encoding inconsistencies. However, note the
-  `--case-preserving` logic only handles casing conversions correctly for plain
+- The `--case-preserving` logic only handles casing conversions correctly for plain
   ASCII letters `[a-zA-Z]`.
 '''
 
