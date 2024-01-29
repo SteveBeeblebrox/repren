@@ -427,7 +427,7 @@ def parse_patterns(patterns_str, literal=False, word_breaks=False, insensitive=F
         bits = None
         try:
             bits = line.split('\t')
-            if line.strip().startswith("#"):
+            if line.strip().startswith("#") or not line.strip():
                 continue
             elif line.strip() and len(bits) == 2:
                 (regex, replacement) = bits
