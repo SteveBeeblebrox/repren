@@ -53,12 +53,8 @@ Inevitably you end up digging through the darker corners of some man page or wri
 
 ## Installation
 
-No dependencies except Python 2.7+. It's easiest to install with pip (using sudo if desired):
-
-    pip2.7 install repren
-
-Or, since it's just one file, you can copy the
-[repren](https://raw.githubusercontent.com/jlevy/repren/master/repren)
+No dependencies except Python 3. Copy the
+[repren](https://raw.githubusercontent.com/SteveBeeblebrox/repren/main/repren)
 script somewhere (perhaps within your own project) and make it executable.
 
 
